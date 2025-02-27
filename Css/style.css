@@ -1,0 +1,97 @@
+.Startoverskrift {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, yellow, red);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+ 
+.Startoverskrift h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+ 
+.Tesla, .BMW, .Toyota {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+ 
+.Tesla p, .BMW p, .Toyota p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+ 
+.Tesla img, .BMW img, .Toyota img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
+}
+ 
+.Tesla img:hover, .BMW img:hover, .Toyota img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+}
+ 
+.BMW {
+    font-size: xx-large;
+}
+ 
+.Toyota {
+    font-size: xx-large;
+}
+ 
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ 
+button:hover {
+    background-color: darkgreen;
+    transition: background-color 0.3s ease;
+}
+ 
+.kr {
+    font-size: x-large;
+}
+ 
+.Saldo {
+    display: flex;
+    justify-content: left;
+    padding-inline-end: 3rem;
+    max-width: 40ch;
+    gap: 20px;
+}
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, lightblue, lightgreen);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+ 
+#viserKrTesla, #viserKrBMW, #viserKrToyota {
+    font-size: 50px;
+    margin: 0;
+}
+ 
+#nokTesla, #nokBMW, #nokToyota {
+    font-size: 50px;
+    margin-right: 10px;
+}
+ 

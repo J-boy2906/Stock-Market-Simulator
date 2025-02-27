@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Simulator</title>
+</head>
+<body>
+ 
+    <div class="Startoverskrift">
+        <h1>Stock Market Simulator</h1>
+    </div>
+ 
+    
+    <div class="Tesla">
+        <p class="car">Tesla</p>
+        <img src="/Bilder/Tesla.png" alt="">
+    </div>
+ 
+    <p><span id="nokTesla">NOK:</span> <span id="viserKrTesla"></span> </p>
+    <button onclick="buyTesla()">Kjøp</button>
+    <button onclick="sellTesla()">Selg</button>
+ 
+    <div class="BMW">
+        <p class="car">BMW</p>
+        <img src="/Bilder/BMW.png" alt="">
+    </div>
+ 
+    <p><span id="nokBMW">NOK:</span> <span id="viserKrBMW"></span> </p>
+    <button onclick="buyBMW()">Kjøp</button>
+    <button onclick="sellBMW()">Selg</button>
+ 
+    <div class="Toyota">
+        <p class="car">Toyota</p>
+        <img src="/Bilder/Toyota.png" alt="">
+    </div>
+ 
+   <p><span id="nokToyota">NOK:</span> <span id="viserKrToyota"></span> </p>
+    <button onclick="buyToyota()">Kjøp</button>
+    <button onclick="sellToyota()">Selg</button>
+ 
+ 
+ 
+ 
+<h1>Saldo: <span id="viserSaldo"></span> </h1>
+ 
+<!--
+<div class="Aksjer">
+    <h1>Dine aksjer: <span id="viserAksjer"></span></h1>
+</div>
+-->
+<div class="Aksjer">
+    <h1>Dine Tesla-aksjer: <span id="viserTeslaAksjer"></span></h1>
+</div>
+<div class="Aksjer">
+    <h1>Dine BMW aksjer: <span id="viserBMWAksjer"></span></h1>
+</div>
+<div class="Aksjer">
+    <h1>Dine Toyota aksjer: <span id="viserToyotaAksjer"></span></h1>
+</div>
+ 
+ 
+   <script src="JS/script.js"></script>
+</body>
+</html>
