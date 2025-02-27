@@ -20,7 +20,7 @@ let prisAksjer = [200, 1000, 500]
 //
 updateUI();
  
-setInterval(updateCarPrices, 300);
+setInterval(updateCarPrices, 1000);
  
  
  
